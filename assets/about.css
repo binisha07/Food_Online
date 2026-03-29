@@ -1,0 +1,90 @@
+/* HERO */
+.about-hero {
+  background: url('../images/Top burger.webp') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.about-hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* STORY */
+.about-container {
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* FEATURES */
+.features-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.features-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* MISSION */
+.mission-section {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+/* CTA */
+.cta-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.cta-section a {
+  padding: 10px 20px;
+  background: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
